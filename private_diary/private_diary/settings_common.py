@@ -143,6 +143,16 @@ MESSAGE_TAGS = {
         }
 
 
+
+
+
+
+AUTH_USER_MODEL = 'accounts.CustomUser'
+
+
+
+
+
 # ロギング設定
 LOGGING = {
         'version': 1,
@@ -183,4 +193,5 @@ LOGGING = {
                 },
             }
         }
+
 
